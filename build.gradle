@@ -1,0 +1,26 @@
+apply from:'version.gradle'
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url = "http://172.18.0.20:8080/repos"
+        }
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+task printStringClass{
+    println "App版本是:${versionName},版本号:${versionCode}"
+}

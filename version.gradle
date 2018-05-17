@@ -1,0 +1,15 @@
+
+ext{
+    versionName='1.0.0'
+    versionCode=1
+    compileSdkVersion=27
+    targetSdkVersion=27
+    minSdkVersion=14
+    supportLibVersion = "27.0.0"
+    runnerVersion = "1.0.1"
+    rulesVersion = "1.0.1"
+    espressoVersion = "3.0.1"
+    archLifecycleVersion = "1.1.1"
+    glideVersion="3.7.0"
+    easypermissionsVersion="1.2.0"
+}

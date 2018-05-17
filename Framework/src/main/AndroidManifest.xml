@@ -1,0 +1,5 @@
+<manifest xmlns:tools="http://schemas.android.com/tools"
+          package="com.stkj.freeshare">
+
+    <uses-sdk tools:overrideLibrary="com.stkj.yunos.onekey.data,com.jakewharton.threetenabp"/>
+</manifest>
